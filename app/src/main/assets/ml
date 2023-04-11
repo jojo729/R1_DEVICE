@@ -1,0 +1,3 @@
+models=asrfix,wakeup,extjsgf,net,defaultjsgf
+am=am0
+custom=net

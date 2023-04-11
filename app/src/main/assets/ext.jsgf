@@ -1,0 +1,14 @@
+#JSGF V1.0 utf-8 cn;
+
+grammar jsgfExtDefault;
+public <jsgfExtDefault> = ( "<s>" (
+([<Head>]<Setting>)
+| ([<Nav>]<Option>)
+) "</s>" );
+
+<Head> = (
+帮我
+);
+<Nav> = (
+导航到
+);

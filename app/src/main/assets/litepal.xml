@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+  <dbname value="MemoDB"/>
+  <version value="4"/>
+  <list>
+    <mapping class="com.unisound.vui.handler.session.memo.entity.LocalMemo"/>
+  </list>
+
+</litepal>

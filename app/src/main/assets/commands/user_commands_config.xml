@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+  <command>
+    <user_command>软件版本号</user_command>
+    <user_operands>OBJ_DEVICE</user_operands>
+    <user_operator>ACT_QUESTION_VERSION</user_operator>
+    <user_value></user_value>
+  </command>
+  <command>
+    <user_command>系统升级</user_command>
+    <user_operands>OBJ_DEVICE</user_operands>
+    <user_operator>ACT_PHICOMM_OTA</user_operator>
+    <user_value></user_value>
+  </command>
+  <command>
+    <user_command>问题反馈</user_command>
+    <user_operands>OBJ_DEVICE</user_operands>
+    <user_operator>ACT_PHICOMM_BACKUP</user_operator>
+    <user_value></user_value>
+  </command>
+  <command>
+    <user_command>你离线了吗</user_command>
+    <user_operands>OBJ_DEVICE</user_operands>
+    <user_operator>ACT_PHICOMM_CHECK_ONLINE_STATE</user_operator>
+    <user_value></user_value>
+  </command>
+</commands>

@@ -1,0 +1,71 @@
+package com.unisound.vui.engine;
+
+public final class EventType {
+    public static final int ALL_ENGINE_INIT_DONE = 2601;
+    public static final int ASR_ERROR = 1300;
+    public static final int ASR_ERROR_INSERTVOCAB_EXT_FAIL = 1303;
+    public static final int ASR_ERROR_LOADMODEL_FAIL = 1302;
+    public static final int ASR_EVENT_CANCEL = 1117;
+    public static final int ASR_EVENT_COMPILE_DONE = 1123;
+    public static final int ASR_EVENT_END = 1120;
+    public static final int ASR_EVENT_ENGINE_INIT_DONE = 1129;
+    public static final int ASR_EVENT_FX_ABNORMAL_NO_LEADINGSILENCE = 1116;
+    public static final int ASR_EVENT_FX_ABNORMAL_SNR_BAD = 1115;
+    public static final int ASR_EVENT_FX_ABNORMAL_TOO_LOUD = 1113;
+    public static final int ASR_EVENT_FX_ABNORMAL_TOO_QUIET = 1114;
+    public static final int ASR_EVENT_GRAMMAR_COMPILED = 1109;
+    public static final int ASR_EVENT_GRAMMAR_INSERTED = 1111;
+    public static final int ASR_EVENT_GRAMMAR_LOADED = 1110;
+    public static final int ASR_EVENT_LOADGRAMMAR_DONE = 1130;
+    public static final int ASR_EVENT_LOCAL_END = 1118;
+    public static final int ASR_EVENT_MODEL_LOAD_FAIL = 1151;
+    public static final int ASR_EVENT_MODEL_LOAD_SUCCESS = 1150;
+    public static final int ASR_EVENT_NET_END = 1119;
+    public static final int ASR_EVENT_ONESHOT_VAD_TIMEOUT = 1800;
+    public static final int ASR_EVENT_RECOGNITION_END = 1107;
+    public static final int ASR_EVENT_RECORDING_PREPARED = 1131;
+    public static final int ASR_EVENT_RECORDING_START = 1101;
+    public static final int ASR_EVENT_RECORDING_STOP = 1102;
+    public static final int ASR_EVENT_SPEECH_DETECTED = 1104;
+    public static final int ASR_EVENT_SPEECH_END = 1105;
+    public static final int ASR_EVENT_USERDATA_UPLOADED = 1108;
+    public static final int ASR_EVENT_VAD_TIMEOUT = 1103;
+    public static final int ASR_EVENT_VOCAB_INSERTED = 1112;
+    public static final int ASR_EVENT_VOLUMECHANGE = 1122;
+    public static final int ASR_NLU_ERROR = 1301;
+    public static final int ASR_NLU_EVENT_END = 1121;
+    public static final int ASR_PARTIAL_RESULT = 1801;
+    public static final int ASR_RESULT_LOCAL = 1202;
+    public static final int ASR_RESULT_NET = 1201;
+    public static final int ASR_RESULT_RECOGNITION = 1210;
+    public static final int ASR_STATUS_LOCAL_IDEL = 1501;
+    public static final int ASR_STATUS_LOCAL_RECOGNIZING = 1502;
+    public static final int ASR_STATUS_LOCAL_RESET = 1503;
+    public static final int TTS_ERROR = 2301;
+    public static final int TTS_EVENT_BUFFER_BEGIN = 2104;
+    public static final int TTS_EVENT_BUFFER_READY = 2105;
+    public static final int TTS_EVENT_INIT = 2101;
+    public static final int TTS_EVENT_MODEL_LOAD = 2113;
+    public static final int TTS_EVENT_PAUSE = 2108;
+    public static final int TTS_EVENT_PLAYING_END = 2107;
+    public static final int TTS_EVENT_PLAYING_START = 2106;
+    public static final int TTS_EVENT_RELEASE = 2112;
+    public static final int TTS_EVENT_RESUME = 2109;
+    public static final int TTS_EVENT_STOP = 2111;
+    public static final int TTS_EVENT_SWITCH_FRONTEND_MODEL_SUCCESS = 2114;
+    public static final int TTS_EVENT_SYNTHESIZER_END = 2103;
+    public static final int TTS_EVENT_SYNTHESIZER_START = 2102;
+    public static final int TTS_RELEASE_ENGINE = 2401;
+    public static final int TTS_STATUS_END = 2504;
+    public static final int TTS_STATUS_PAUSE = 2503;
+    public static final int TTS_STATUS_PLAYING = 2502;
+    public static final int TTS_STATUS_SYNTHESIZERING = 2501;
+    public static final int WAKEUP_ERROR = 3301;
+    public static final int WAKEUP_EVENT_RECOGNITION_SUCCESS = 3103;
+    public static final int WAKEUP_EVENT_SET_WAKEUPWORD_DONE = 3105;
+    public static final int WAKEUP_EVENT_UPDATEWAKEUPWORD_FAIL = 3107;
+    public static final int WAKEUP_RESULT = 3201;
+
+    private EventType() {
+    }
+}

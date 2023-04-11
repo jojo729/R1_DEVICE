@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="controller_layout_id" format="reference" />
+    <attr name="fastforward_increment" format="integer" />
+    <attr name="player_layout_id" format="reference" />
+    <attr name="resize_mode">
+        <enum name="fill" value="3" />
+        <enum name="fit" value="0" />
+        <enum name="fixed_height" value="2" />
+        <enum name="fixed_width" value="1" />
+    </attr>
+    <attr name="rewind_increment" format="integer" />
+    <attr name="show_timeout" format="integer" />
+    <attr name="surface_type">
+        <enum name="none" value="0" />
+        <enum name="surface_view" value="1" />
+        <enum name="texture_view" value="2" />
+    </attr>
+    <attr name="min" format="integer" />
+    <attr name="max" format="integer" />
+    <attr name="progress" format="integer" />
+    <attr name="progressbarColor" format="color" />
+    <attr name="progressBarThickness" format="dimension" />
+    <attr name="bar_height" format="dimension" />
+    <attr name="touch_target_height" format="dimension" />
+    <attr name="ad_marker_width" format="dimension" />
+    <attr name="scrubber_enabled_size" format="dimension" />
+    <attr name="scrubber_disabled_size" format="dimension" />
+    <attr name="scrubber_dragged_size" format="dimension" />
+    <attr name="played_color" format="color" />
+    <attr name="buffered_color" format="color" />
+    <attr name="ad_marker_color" format="color" />
+    <attr name="use_artwork" format="boolean" />
+    <attr name="default_artwork" format="reference" />
+    <attr name="use_controller" format="boolean" />
+    <attr name="hide_on_touch" format="boolean" />
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="exo_media_button_height">52.0dip</dimen>
+    <dimen name="exo_media_button_width">71.0dip</dimen>
+    <dimen name="activity_horizontal_margin">64.0dip</dimen>
+
+</resources>

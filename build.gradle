@@ -1,0 +1,71 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+tasks.withType(JavaCompile) {
+  options.encoding = "UTF-8"
+}
+
+buildscript {
+
+  ext {
+      kotlin_version = '1.4.21'
+  }
+    repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+    google()
+    jcenter()
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:4.1.1'
+    classpath 'org.greenrobot:greendao-gradle-plugin:3.3.0'
+      classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // add plugin
+
+
+    // NOTE: Do not place your application dependencies here; they belong
+    // in the individual module build.gradle files
+  }
+}
+
+allprojects {
+  repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+    google()
+    jcenter()
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
+
+//subprojects {
+//  plugins.apply('checkstyle')
+//  checkstyle {
+//    toolVersion = '6.0'
+//  }
+//
+//  task('checkstyle', type: Checkstyle) {
+//    configFile rootProject.file('checkstyle.xml')
+//    source 'src/main/java'
+//    ignoreFailures false
+//    showViolations true
+//    include '**/*.java'
+//    exclude 'cn/yunzhisheng/asrfix/JniAsrFix.java'
+//    exclude 'cn/unisound/vpr/lib/*.java'
+//    exclude 'com/unisound/sdk/asr/offline/OfflineAsrThread.java'
+//    exclude 'com/unisound/sdk/asr/UnisoundAsrEngine.java'
+//    exclude 'com/unisound/sdk/tts/UnisoundTtsEngine.java'
+//    exclude 'com/unisound/media/example/VersionUtils.java'
+//    classpath = files()
+//  }
+//
+//  afterEvaluate {
+//    tasks.findByName('check').dependsOn('checkstyle')
+//
+//    // The default 'assemble' task only applies to normal variants. Add test variants as well.
+//    android.testVariants.all { variant -> tasks.getByName('assemble').dependsOn variant.assemble
+//    }
+//  }
+//}
+
+

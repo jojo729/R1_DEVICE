@@ -1,0 +1,44 @@
+package com.unisound.ant.device.bean;
+
+public final class CommandOperate {
+    public static final String CMD_VAL_SYNC_LOCAL_LOG = "offlineAsrLog";
+    public static final String CMD_VAL_SYNC_NET_LOG = "onlineAsrLog";
+    public static final String COMMAND_CHANGE_AUDIO_PLAY_STATE = "changeAudioPlayState";
+    public static final String COMMAND_CHANGE_NEWS_PLAY_STATE = "changeNewsPlayState";
+    public static final String COMMAND_CHANGE_PLAY_STATE = "changePlayState";
+    public static final String COMMAND_OPERATE_APP_OFFLINE = "deviceOnline";
+    public static final String COMMAND_OPERATE_APP_ONLINE = "appOnline";
+    public static final String COMMAND_OPERATE_CHANGE_WIFI = "changeWifi";
+    public static final String COMMAND_OPERATE_DEVICE_OFFLINE = "deviceOnline";
+    public static final String COMMAND_OPERATE_DEVICE_ONLINE = "deviceOnline";
+    public static final String COMMAND_OPERATE_DEVICE_STATE_BIND = "bind";
+    public static final String COMMAND_OPERATE_DEVICE_STATE_UNBIND = "unbind";
+    public static final String COMMAND_OPERATE_DEVICE_UPDATE_STATUS = "update";
+    public static final String COMMAND_OPERATE_MEMO_ADD = "add";
+    public static final String COMMAND_OPERATE_MEMO_DELETE = "delete";
+    public static final String COMMAND_OPERATE_MEMO_DELETE_ALL = "deleteAll";
+    public static final String COMMAND_OPERATE_MEMO_UPDATE = "update";
+    public static final String COMMAND_OPERATE_MODE_SETTING = "modeSetting";
+    public static final String COMMAND_OPERATE_MODE_STTATE_SYNC = "modeSync";
+    public static final String COMMAND_OPERATE_MODIFY_DEVICE_NAME = "modifyDeviceName";
+    public static final String COMMAND_OPERATE_MUSIC_CHANGE_PLAY_MODE = "changePlayMode";
+    public static final String COMMAND_OPERATE_MUSIC_CHANGE_PLAY_STATE = "changePlayState";
+    public static final String COMMAND_OPERATE_MUSIC_CHANGE_VOLUME = "changeVolume";
+    public static final String COMMAND_OPERATE_MUSIC_COLLECT = "changeCollectState";
+    public static final String COMMAND_OPERATE_MUSIC_COLLECT_ADD = "addCollectMusic";
+    public static final String COMMAND_OPERATE_MUSIC_COLLECT_BATCH_DELETE = "batchDelCollectMusic";
+    public static final String COMMAND_OPERATE_MUSIC_COLLECT_DELETE = "delCollectMusic";
+    public static final String COMMAND_OPERATE_MUSIC_PAUSE = "pause";
+    public static final String COMMAND_OPERATE_MUSIC_PLAY = "play";
+    public static final String COMMAND_OPERATE_NEWS_CHANGE_PLAY_STATE = "changeNewsPlayState";
+    public static final String COMMAND_OPERATE_NONE = "none";
+    public static final String COMMAND_OPERATE_NOTE_ADD = "addNote";
+    public static final String COMMAND_OPERATE_NOTE_DELETE = "deleteNote";
+    public static final String COMMAND_OPERATE_SET_MODE_STATE = "setSceneMode";
+    public static final String COMMAND_OPERATE_SMART_STATUS_SYNC = "smartDeviceStatusSync";
+    public static final String COMMAND_OPERATE_SPLASH_PLAY = "play";
+    public static final String COMMAND_OPERATE_SPLASH_STATUS = "splashStatus";
+    public static final String COMMAND_OPERATE_UPDATE_LOCATION = "updateLocation";
+    public static final String COMMAND_OPERATE_UPLOAD_DEVICEINFO = "uploadDeviceInfo";
+    public static final String COMMAND_OPERATE_UPLOAD_PLAY_LIST = "terminalUploadMusicList";
+}

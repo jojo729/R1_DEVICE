@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="competition_words">
+        <item>交接手续</item>
+    </string-array>
+    <string-array name="default_wakeup_words">
+        <item>小讯小讯</item>
+        <item>交接手续</item>
+    </string-array>
+    <string-array name="memo_time_day_nlu">
+        <item>今天</item>
+        <item>明天</item>
+        <item>后天</item>
+        <item>%1$d月%2$d号%3$d点%4$d分</item>
+        <item>每年%1$d月%2$d号%3$d点%4$d分</item>
+        <item>每月%1$d号%2$d点%3$d分</item>
+        <item>每天%1$d点%2$d分</item>
+        <item>工作日%1$d点%2$d分</item>
+        <item>周末%1$d点%2$d分</item>
+        <item>每周一%1$d点%2$d分</item>
+        <item>每周二%1$d点%2$d分</item>
+        <item>每周三%1$d点%2$d分</item>
+        <item>每周四%1$d点%2$d分</item>
+        <item>每周五%1$d点%2$d分</item>
+        <item>每周六%1$d点%2$d分</item>
+        <item>每周日%1$d点%2$d分</item>
+    </string-array>
+    <string-array name="memo_time_duration_nlu">
+        <item>早上%1$d点%2$d分</item>
+        <item>上午%1$d点%2$d分</item>
+        <item>中午%1$d点%2$d分</item>
+        <item>下午%1$d点%2$d分</item>
+        <item>晚上%1$d点%2$d分</item>
+    </string-array>
+    <string-array name="memo_type">
+        <item>提醒</item>
+        <item>闹钟</item>
+    </string-array>
+    <string-array name="music_running_wakeup_words">
+        <item>上一首</item>
+        <item>下一首</item>
+        <item>上一首歌</item>
+        <item>下一首歌</item>
+        <item>上一条新闻</item>
+        <item>下一条新闻</item>
+        <item>随便来首歌</item>
+        <item>音量增大</item>
+        <item>音量减小</item>
+        <item>继续播放</item>
+        <item>暂停播放</item>
+    </string-array>
+    <string-array name="scenemode_wakeup_word">
+        <item>救命救命</item>
+    </string-array>
+    <string-array name="tts_action_music_play_answer">
+        <item>好的</item>
+    </string-array>
+    <string-array name="tts_global_cancel_wake_up">
+        <item>取消</item>
+    </string-array>
+    <string-array name="tts_no_voice_input">
+        <item>不好意思，请再说一遍</item>
+        <item>没听清，请再说一遍</item>
+    </string-array>
+    <string-array name="tts_unsupport_answer">
+        <item>@string/tts_cant_help_you</item>
+        <item>@string/tts_i_cant</item>
+        <item>@string/tts_grow_up</item>
+    </string-array>
+    <string-array name="tts_wakeup_success">
+        <item>[PCM][fileName]wakeup_sex[fileName][txt]找我干啥[txt]</item>
+        <item>[PCM][fileName]wakeup_sex[fileName][txt]主人好[txt]</item>
+        <item>[PCM][fileName]wakeup_sex[fileName][txt]你好,我在听[txt]</item>
+        <item>[PCM][fileName]wakeup_sex[fileName][txt]请说[txt]</item>
+    </string-array>
+    <string-array name="tts_weather_no_result">
+        <item>请说包含城市的信息</item>
+        <item>帅哥，你要查哪个城市</item>
+        <item>美女，你要查哪个城市</item>
+    </string-array>
+    <string-array name="voice_stop_alarm_wakeup_word">
+        <item>停止闹钟</item>
+        <item>关闭闹钟</item>
+    </string-array>
+    <string-array name="voice_stop_reminder_wakeup_word">
+        <item>我知道了</item>
+        <item>晓得了</item>
+    </string-array>
+    <string-array name="wakeup_push_select_cancel">
+        <item>取消</item>
+        <item></item>
+    </string-array>
+    <string-array name="wakeup_push_select_confirm">
+        <item>播放</item>
+        <item>播报</item>
+        <item>确定</item>
+        <item>跳转</item>
+        <item>导航</item>
+    </string-array>
+</resources>

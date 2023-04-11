@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/bt_alter_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="警戒模式" />
+        <Button android:id="@id/bt_collect_music" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收藏歌曲" />
+        <Button android:id="@id/bt_enter_asr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启识别" />
+        <Button android:id="@id/bt_night_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="夜间模式" />
+        <Button android:id="@id/bt_get_unread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获取未读信息" />
+        <Button android:id="@id/bt_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="获取历史信息" />
+    </LinearLayout>
+</LinearLayout>

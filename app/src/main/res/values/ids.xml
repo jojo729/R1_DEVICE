@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="exo_artwork"/>
+    <item type="id" name="exo_content_frame" />
+    <item type="id" name="exo_controller_placeholder" />
+    <item type="id" name="exo_duration" />
+    <item type="id" name="exo_ffwd" />
+    <item type="id" name="exo_next" />
+    <item type="id" name="exo_overlay" />
+    <item type="id" name="exo_pause" />
+    <item type="id" name="exo_play" />
+    <item type="id" name="exo_position" />
+    <item type="id" name="exo_prev" />
+    <item type="id" name="exo_progress" />
+    <item type="id" name="exo_rew" />
+    <item type="id" name="exo_shutter" />
+    <item type="id" name="exo_subtitles" />
+    <item type="id" name="bt_test_view" />
+    <item type="id" name="bt_playOrPause" />
+    <item type="id" name="bt_prev" />
+    <item type="id" name="bt_next" />
+    <item type="id" name="bt_conectnet" />
+    <item type="id" name="bt_forbiden_mic" />
+    <item type="id" name="bt_alter_mode" />
+    <item type="id" name="bt_collect_music" />
+    <item type="id" name="bt_enter_asr" />
+    <item type="id" name="bt_night_mode" />
+    <item type="id" name="bt_get_unread" />
+    <item type="id" name="bt_history" />
+</resources>
