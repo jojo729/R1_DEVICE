@@ -18,6 +18,8 @@ app/src/main/java/com/phicomm/speaker/device/utils/ServiceManagerWraper
 
 ## 编译方法
 ```bash
+
+# 环境 jdk >= 1.8; android sdk
 ./gradlew NewPackage:assemble
 
 # outupt apk file
