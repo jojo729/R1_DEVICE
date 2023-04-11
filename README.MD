@@ -5,7 +5,7 @@ NativeANTEngine 识别结果第一入口
 ## 核心代码说明
 ```bash
 
-#  hooke 原始语音命令，采用新的 unisound api
+#  hook 原始语音命令，采用新的 unisound api
 app/src/main/java/com/phicomm/speaker/device/utils/PhicommUtils.java
 
 #  解决签名验证问题
