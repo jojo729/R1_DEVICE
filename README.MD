@@ -25,6 +25,17 @@ app/src/main/java/com/phicomm/speaker/device/utils/ServiceManagerWraper
 # outupt apk file
 NewPackage/build/outputs/apk/debug/NewPackage-release.apk
 ```
+
+## 使用方法
+
+```bash
+
+# 安装 NewPackage-release.apk 
+# 禁用系统 app  com.phicomm.speaker.device
+
+```
+
+
 ### 服务端返回成功结果记录
 
 #### 播放新闻  cn.yunzhisheng.news
